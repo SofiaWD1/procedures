@@ -6,5 +6,5 @@ create conda env: conda create --name --file requirements.txt<br />
 
 using pip:<br />
 save requirements: pip list --format=freeze > requirements.txt<br />
-install rquirements : pip install -r requirements_<br />
+install rquirements : pip install -r requirements.txt<br />
 
