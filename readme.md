@@ -1,5 +1,6 @@
 # saving and working requirements for projects
-using conda: save requirements.txt: conda list -e > requirements.txt 
+using conda: 
+save requirements.txt: conda list -e > requirements.txt 
 create conda env: conda create --name --file requirements.txt
 
 using pip:
