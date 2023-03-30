@@ -20,7 +20,7 @@ Bash<br />
 
 while read requirement; do conda install --yes $requirement; done < conda_requirements.txt<br /> <br />
 ### create env yml:<br />
-conda env export --name machine-learning-env --from-history --file environment.yml <br />
+conda env export --name my-env --from-history --file environment.yml <br />
 create conda env using yml: conda env create --file environment.yml <br />
  for more info: <br />
  https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/04-sharing-environments/index.html
