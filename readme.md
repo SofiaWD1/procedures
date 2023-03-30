@@ -10,7 +10,7 @@ install rquirements : pip install -r pip_requirements.txt<br />
 
 
 ## To install from  conda_requirements to conda env 
-create conda env using : conda create --name <env name> br />
+create conda env using : conda create --name <env name> <br />
 install pip for conda using : conda install pip br />
 Windows <br />
 
