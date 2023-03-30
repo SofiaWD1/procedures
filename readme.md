@@ -14,7 +14,7 @@ create conda env using : conda create --name <env name> <br />
 install pip for conda using : conda install pip <br />
 Windows <br />
 
-FOR /F "delims=~" %f in (conda_requirements.txt) DO conda install --yes "%f" || pip install "%f"<br />
+FOR /F "delims=~" %f in (conda_requirements.txt) DO conda install --yes "%f" || conda install -c conda_forge --yes "%f"<br />
 
 Bash<br />
 
