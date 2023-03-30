@@ -8,3 +8,10 @@ using pip:<br />
 save requirements: pip list --format=freeze > pip_requirements.txt<br />
 install rquirements : pip install -r pip_requirements.txt<br />
 
+Windows <br /><br />
+
+FOR /F "delims=~" %f in (requirements.txt) DO conda install --yes "%f" || pip install "%f"<br />
+
+Bash<br />
+
+while read requirement; do conda install --yes $requirement; done < requirements.txt<br />
